@@ -1,9 +1,9 @@
 cask "rasql" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.0"
-  sha256 arm:   "588abac4c3467ccc33a3135e232a99d6eacd04781d9d1a1638cc9aae7062b28b",
-         intel: "5bd9e2cb8567f41b91a8119ade402bd0685cca098e7db68f12f5e048a1373df1"
+  version "0.1.1"
+  sha256 arm:   "4d3794e96e85ca3aece21f7f7a5a990db4bdc5b3b7c0bc425c3f21a29cb476c1",
+         intel: "8a2d39c1379fdc113e1fe7f3ecdf2bd345563e90539c1aed8ec4d8abab23335f"
 
   url "https://github.com/rmpel/rasql-database-manager/releases/download/v#{version}/RaSQL-#{version}-mac-#{arch}.zip"
   name "RaSQL"
